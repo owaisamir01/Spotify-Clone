@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+ font-family:'Ubuntu',sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    height: 50px;
+align-items: center;
+}
+nav ul li{
+    color: white;
+    padding: 0 14px;
+}
+.brand img{
+    height: 32px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+font-weight: bolder;
+font-size: 1.3rem;
+}
+.container{
+    min-height: 72vh;
+background-color: black;
+color: white;
+font-family: 'varela Round', sans-serif;
+display: flex;
+margin: 20px auto;
+width: 70%;
+border-radius: 20px;
+padding: 20px;
+background-image: url('bg.jpg');
+background-position: center;
+}
+.bottom{
+    position: sticky;
+height: 92px;
+background-color: black;
+bottom: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+#progressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icon img{
+    height: 20px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 70%;
+    color: black;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+justify-content: space-between;
+align-items: center;
+border-radius: 23px;
+margin: 21px;
+}
+
+.songitem img{
+    width: 50px;
+    margin: 0 15px;
+border-radius: 34px;
+}
+
+
+.timestamp img{
+    cursor: pointer;
+    width: 20px;
+
+}
+.songinfo{
+    color: white;
+    position: absolute;
+    left: 10vw;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
